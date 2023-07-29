@@ -1,0 +1,287 @@
+@import url(
+"https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+	margin:0;
+	padding: 0;
+
+	box-sizing: border-box;
+	font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 10px;
+	background-color: rgb(255, 255, 255);
+}
+
+header {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 5px;
+}
+
+.heading {
+	color: green;
+}
+
+.title {
+	letter-spacing: 1px;
+}
+
+.container {
+	height: 410px;
+	width: 380px;
+	background-color: white;
+	box-shadow: 5px 5px 20px rgb(170, 169, 169);
+	position: relative;
+    margin-left: 0%;
+    margin-bottom: 25%;
+    
+}
+
+.link{
+	padding-top: 41%;
+	margin-left: -11.25%;
+	color: rgb(111, 111, 111);
+}
+
+.btn {
+	height: 45px;
+	width: 300px;
+	margin: 20px auto;
+	box-shadow: 5px 5px 5px rgba(171, 170, 170, 0.55);
+	border-radius: 30px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.login,
+.signup {
+	border: none;
+	outline: none;
+	background-color: transparent;
+	position: relative;
+	cursor: pointer;
+    font-size: 17px;
+
+}
+
+.slider {
+	height: 45px;
+	width: 150px;
+	border-radius: 30px;
+	background-image: linear-gradient(to right,
+    rgba(224, 224, 224, 0.55),
+    rgba(196, 195, 195, 0.55));
+	position: absolute;
+	top: 20px;
+	left: 40px;
+	transition: all 0.4s ease-in-out;
+}
+
+
+.moveslider {
+	left: 190px;
+}
+
+.form-section {
+	height: 540px;
+	width: 500px;
+	padding: 20px 0;
+	display: flex;
+	position: relative;
+	transition: all 0.4s ease-in-out;
+	right: 30px;
+    
+    
+}
+
+.form-section-move {
+	left: -500px;
+}
+
+.login-box {
+	height: 37%;
+	width: 100px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding-left: 210px;
+}
+
+.login-box {
+	gap: 20px;
+}
+
+.signup-box {
+	gap: 22px;
+    height: 57%;
+	width: 120px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding-left: 410px;
+    margin-block-start: -4%;
+
+}
+
+.ele {
+	height: 50px;
+	width: 300px;
+	outline: none;
+	border: none;
+	color: rgb(41, 40, 40);
+	background-color: rgb(240, 240, 240);
+	border-radius: 50px 0px 50px 50px ;;
+	padding-left: 30px;
+	font-size: 15px;
+}
+
+
+
+.clkbtn {
+	height: 40px;
+	width: 150px;
+	border-radius: 50px;
+	background-image: linear-gradient(to right,
+			rgb(155, 56, 56),
+			rgb(183, 42, 23));
+	font-size: 17px;
+	border: none;
+    color: white;
+	cursor: pointer;
+}
+
+/* For Responsiveness of the page */
+
+@media screen and (max-width: 650px) {
+	.container {
+		height: 600px;
+		width: 300px;
+	}
+
+
+
+	.btn {
+		height: 50px;
+		width: 200px;
+		margin: 20px auto;
+	}
+
+	.login,
+	.signup {
+		font-size: 19px;
+	}
+
+	.slider {
+		height: 50px;
+		width: 100px;
+		left: 50px;
+	}
+
+	.moveslider {
+		left: 150px;
+	}
+
+	.form-section {
+		height: 500px;
+		width: 600px;
+	}
+
+	.form-section-move {
+		left: -300px;
+	}
+
+	.login-box,
+	.signup-box {
+		height: 100%;
+		width: 300px;
+	}
+
+	.ele {
+		height: 50px;
+		width: 250px;
+		font-size: 15px;
+	}
+
+	.clkbtn {
+		height: 50px;
+		width: 130px;
+		font-size: 19px;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.container {
+		height: 600px;
+		width: 250px;
+	}
+
+	.heading {
+		font-size: 30px;
+	}
+
+	.title {
+		font-size: 10px;
+	}
+
+	.btn {
+		height: 50px;
+		width: 200px;
+		margin: 20px auto;
+	}
+
+	.login,
+	.signup {
+		font-size: 19px;
+	}
+
+	.slider {
+		height: 50px;
+		width: 100px;
+		left: 27px;
+	}
+
+	.moveslider {
+		left: 127px;
+	}
+
+	.form-section {
+		height: 500px;
+		width: 500px;
+	}
+
+	.form-section-move {
+		left: -250px;
+	}
+
+	.login-box,
+	.signup-box {
+		height: 100%;
+		width: 250px;
+	}
+
+	.ele {
+		height: 50px;
+		width: 220px;
+		font-size: 15px;
+	}
+
+	.clkbtn {
+		height: 50px;
+		width: 130px;
+		font-size: 19px;
+	}
+}
