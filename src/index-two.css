@@ -30,10 +30,8 @@ body {
 header {
 	width: 100%;
 	display: flex;
-	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	gap: 10px;
 }
 
 .heading {
@@ -44,16 +42,28 @@ header {
 	letter-spacing: 1px;
 }
 
-.container {
-	height: 410px;
+.container{
+	height: 600px;
 	width: 380px;
 	background-color: white;
 	box-shadow: 5px 5px 20px rgb(170, 169, 169);
 	position: relative;
-    margin-left: 0%;
-    margin-bottom: 25%;
-    
+    margin-left: 22%;
+    margin-bottom: 8%;
+	margin-top: 3%;
 }
+
+
+.container-back{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    height:100vh;
+    width: 170vh;
+
+}
+
+
 
 .link{
 	padding-top: 41%;
@@ -150,6 +160,7 @@ a:link {
 	justify-content: center;
 	padding-left: 210px;
 }
+
 
 .login-box {
 	gap: 20px;
