@@ -83,7 +83,7 @@ a{
 }
 
 .schoolimg{
-    background:url(./woodlands.jpeg)no-repeat center center / cover ;
+    background: no-repeat center center / cover ;
 
 }
 
@@ -105,7 +105,7 @@ a{
 /* section 2*/
 
 .about_part {
-    margin-top: -100px;
+    margin-top: -70px;
     position: relative;
     z-index: 1;
     font-size: 18px;
@@ -197,12 +197,9 @@ h1{
 }
 
 btn_1:hover, .btn_3:hover {
-    color: #fff !important;
 }
 
 a:hover {
-    color: white !important;
-    background-color: #003049;
     text-decoration: none;
     -webkit-transition: 0.5s;
     transition: 0.5s;
@@ -261,12 +258,12 @@ a:hover {
 }
 
 .col-lg-4 {
-    flex: 0 0 30%;
+    flex: 0 0 40%;
     max-width: 30%;
 }
 
 .col-sm-6 {
-    flex: 0 0 30%;
+    flex: 0 0 40%;
     max-width: 30%;
 }
 
@@ -287,7 +284,7 @@ a:hover {
 }
 
 .service-item:hover {
-    background: #dfa974;
+    background: #ffc875;
 }
 
 .service-item {
@@ -296,8 +293,17 @@ a:hover {
     transition: all 0.3s;
     padding-top: 30px;
     padding-right: 35px;
-    padding-bottom: 18px;
+    padding-bottom: 28px;
     padding-left: 35px;
+}
+
+.grey{
+    background-color: #faefef;
+}
+
+.purple{
+    background-color: #e1e0f3;
+
 }
 
 .service-item h4 {
@@ -344,8 +350,8 @@ p {
 .containerfour {
     width: 100%;
     max-width: 950px;
-    padding-right: 15px;
-    padding-left: 15px;
+    padding-right: 0;
+    padding-left: 0;
     margin-right: auto;
     margin-left: auto;
 }
@@ -353,13 +359,13 @@ p {
 .rowfour {
     display: flex;
     flex-wrap: wrap;
-    margin-right: -15px;
-    margin-left: -15px;
+    margin-right: -80px;
+    margin-left: -80px;
 }
 
 .cool-lg-4 {
-    flex: 0 0 33%;
-    max-width: 33%;
+    flex: 0 0 30%;
+    max-width: 20%;
 }
 
 .recepie_area .single_recepie {
@@ -441,8 +447,10 @@ a {
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
     border-bottom-left-radius: 30px;
-    margin-right: 7%;
+    margin-right: 13%;
+    margin-top: -30%;
 }
+
 
 a, button {
     outline: medium none;
@@ -562,15 +570,14 @@ img {
 }
 
 .video-right {
-    background: url(./sunset.jpeg) no-repeat center;
-    background-image: url(./sunset.jpeg);
+
     background-position-x: center;
     background-position-y: center;
     background-attachment: initial;
     background-origin: initial;
     background-clip: initial;
     background-size: cover;
-    height: 250px;
+ 
     border-radius: 10px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -625,10 +632,6 @@ a, a:focus, a:hover {
     outline-width: 0px;
 }
 
-video-left {
-    padding-left: 10%;
-}
-
 .col-lg-6 {
     flex: 0 0 50%;
     max-width: 50%;
@@ -658,3 +661,102 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 
+
+
+
+
+
+
+
+
+.bg-grey {
+    background: #4d4858;
+ }
+ .logo-footer {
+    margin-bottom: 40px;
+ }
+ footer {
+        color: rgb(236, 236, 236);
+ }
+ footer p, a {
+font-size: 12px;
+font-family: 'Roboto', sans-serif;
+}
+footer h6 {
+font-family: 'Playfair Display', serif;
+margin-bottom: 20px;
+position: relative;
+}
+footer h6:after {
+position: absolute;
+content: "";
+background: rgb(254, 254, 254);
+width: 12%;
+height: 1px;
+left: 0;
+bottom: -10px;
+}
+ .btn-footer {
+             color: rgb(206, 206, 206);
+          
+            text-decoration: none;
+            border: 1px solid;
+            border-radius: 43px;
+            font-size: 13px;
+            padding: 7px 10px;
+            line-height: 47px;
+            margin-left: -1%;
+ }
+ .btn-footer:hover {
+            
+            text-decoration: none;
+           
+ }
+.form-footer input[type="text"] {
+    border: none;
+border-radius: 16px 0 0 16px;
+outline: none;
+padding-left: 10px;
+
+}
+::placeholder {
+font-size: 10px;
+padding-left: 10px;
+font-style: italic;
+}
+.form-footer input[type="button"] {
+border: none;
+background:#a6a6a6;
+    margin-left: -5px;
+color: #fff;
+outline: none;
+border-radius: 0 16px 16px 0;
+padding: 2px 12px;
+}
+ .social .fa {
+color: rgb(213, 213, 213);
+font-size: 22px;
+padding: 10px 15px;
+background: #ffffff;
+}
+ footer ul li {
+list-style: none;
+display: block;
+}
+footer ul  {
+padding-left: 0;
+}
+footer ul  li a{
+text-decoration: none;
+color: rgb(220, 220, 220);
+text-decoration:none;
+}
+
+.logo-part {
+border-right: 1px solid rgb(198, 198, 198);
+height: 100%;
+}
+
+.color{
+    color: #e1e0f3;
+}
